@@ -1,0 +1,39 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#example {
+  padding: 80px 0;
+}
+#example .textbox {
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+#example .textbox h1 {
+  padding: 10px 0 20px;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+#example .textbox input {
+  height: 60px;
+  border-radius: 20px;
+}
+#example .textbox .btn {
+  margin: 18px 0;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 12px 40px;
+  margin: 10px 45px;
+  max-width: 180px;
+}/*# sourceMappingURL=style.css.map */
