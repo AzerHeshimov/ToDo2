@@ -5,13 +5,12 @@ $(document).ready(function () {
   $('.btn').click(function (e) { 
     e.preventDefault();
     if (!$.trim($('input').val()) == '') {
-        let a = function(b) {
+        var a = function(b) {
             for (var i = 0; i < b; i++) {
                 $('.box').append(`<h2>${b}</h2>`);
             }
         };
-        
-        let x = function(y) {
+        var x = function(y) {
             if (Number(y)) {
                 return a(y);
             }
